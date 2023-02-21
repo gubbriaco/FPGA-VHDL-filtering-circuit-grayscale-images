@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1676766105">
+  <File Type="ROUTE-PWR" Name="FilterCircuit_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="FilterCircuit.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="FilterCircuit_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="FilterCircuit_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="FilterCircuit.msk"/>
+  <File Type="ROUTE-CLK" Name="FilterCircuit_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="FilterCircuit.vdi"/>
+  <File Type="BG-BIT" Name="FilterCircuit.bit"/>
+  <File Type="BG-DRC" Name="FilterCircuit.drc"/>
+  <File Type="BG-BGN" Name="FilterCircuit.bgn"/>
+  <File Type="BG-BIN" Name="FilterCircuit.bin"/>
+  <File Type="BITSTR-RBT" Name="FilterCircuit.rbt"/>
+  <File Type="BITSTR-NKY" Name="FilterCircuit.nky"/>
+  <File Type="BITSTR-BMM" Name="FilterCircuit_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="FilterCircuit.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FilterCircuit_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="FilterCircuit.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FilterCircuit_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="FilterCircuit.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="FilterCircuit_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FilterCircuit.hwdef"/>
+  <File Type="PLACE-IO" Name="FilterCircuit_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="FilterCircuit_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="FilterCircuit_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="FilterCircuit_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FilterCircuit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="FilterCircuit_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="FilterCircuit_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="FilterCircuit_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="FilterCircuit_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="FilterCircuit_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="FilterCircuit_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FilterCircuit_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FilterCircuit_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="FilterCircuit_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="FilterCircuit_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="FilterCircuit_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="FilterCircuit_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="FilterCircuit_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="FilterCircuit_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="FilterCircuit_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="FilterCircuit_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="FilterCircuit_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FilterCircuit_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="FilterCircuit_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FilterCircuit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FilterCircuit_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="FilterCircuit_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FilterCircuit_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="FilterCircuit.pdi"/>
+  <File Type="RCFI_FILE" Name="FilterCircuit.rcfi"/>
+  <File Type="CFI_FILE" Name="FilterCircuit.cfi"/>
+  <File Type="RNPI_FILE" Name="FilterCircuit.rnpi"/>
+  <File Type="NPI_FILE" Name="FilterCircuit.npi"/>
+  <File Type="RBD_FILE" Name="FilterCircuit.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/Adder_CSA_mult.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Adder_tree_CSA_4opX9bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Adder_tree_CSA_8opX9bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Booth_encoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Booth_mult.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/costants.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/BufferLine.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Counter_13bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FA_CSA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FF_T.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FSM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FSM_and_Counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Final_Adder_Tree_CSA_6opX20bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FullAdderVector.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/MUX_5to1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Multipliers_Module.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Pre_Adders_Module.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Reg_Module_AddMult.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Reg_Module_MultAdd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Registro.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/RippleCarryAdder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/FilterCircuit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Saturation_Module.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Final_Adder_Tree.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FilterCircuit"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/my_constraint.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/my_constraint.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/FilterCircuit.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

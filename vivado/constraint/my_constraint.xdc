@@ -1,0 +1,1 @@
+set_max_delay -datapath_only -from [get_pins {Pipeline_Register_module1/Reg3/Q_reg[4]/C}] -to [get_pins {Pipeline_Register_module2/Reg3/Q_reg[18]/D}] 20.000

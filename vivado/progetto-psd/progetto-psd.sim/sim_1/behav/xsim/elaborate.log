@@ -1,0 +1,54 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_behav xil_defaultlib.TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.math_real
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.costants
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.FF_T [ff_t_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter_13bit [counter_13bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.FSM [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_and_Counter [fsm_and_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.BufferLine [bufferline_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=9)\]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=10)\]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(n=11)\]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_tree_CSA_4opX9bit [adder_tree_csa_4opx9bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=11)\]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=12)\]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(n=13)\]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_tree_CSA_8opX9bit [adder_tree_csa_8opx9bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Pre_Adders_Module [pre_adders_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.Registro [\Registro(n=12)\]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Module_AddMult [reg_module_addmult_default]
+Compiling architecture behavioral of entity xil_defaultlib.Booth_encoder [booth_encoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_5to1 [mux_5to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(n=12)\]
+Compiling architecture behavioral of entity xil_defaultlib.FA_CSA [fa_csa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(n=22)\]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_CSA_mult [adder_csa_mult_default]
+Compiling architecture behavioral of entity xil_defaultlib.Booth_mult [booth_mult_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multipliers_Module [multipliers_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.Registro [\Registro(n=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Module_MultAdd [reg_module_multadd_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=21)\]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdderVector [\FullAdderVector(n=22)\]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(n=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Adder_Tree_CSA_6opX20bit [final_adder_tree_csa_6opx20bit_d...]
+Compiling architecture behavioral of entity xil_defaultlib.Registro [\Registro(n=24)\]
+Compiling architecture behavioral of entity xil_defaultlib.FilterCircuit [filtercircuit_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb
+Built simulation snapshot TB_behav

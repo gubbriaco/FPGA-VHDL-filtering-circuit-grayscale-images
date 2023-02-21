@@ -1,0 +1,29 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../src/Adder_CSA_mult.vhd" \
+"../../../../../src/Adder_tree_CSA_4opX9bit.vhd" \
+"../../../../../src/Adder_tree_CSA_8opX9bit.vhd" \
+"../../../../../src/Booth_encoder.vhd" \
+"../../../../../src/Booth_mult.vhd" \
+"../../../../../src/costants.vhd" \
+"../../../../../src/BufferLine.vhd" \
+"../../../../../src/Counter_13bit.vhd" \
+"../../../../../src/FA_CSA.vhd" \
+"../../../../../src/FF_T.vhd" \
+"../../../../../src/FSM.vhd" \
+"../../../../../src/FSM_and_Counter.vhd" \
+"../../../../../src/FilterCircuit.vhd" \
+"../../../../../src/Final_Adder_Tree_CSA_6opX20bit.vhd" \
+"../../../../../src/FullAdder.vhd" \
+"../../../../../src/FullAdderVector.vhd" \
+"../../../../../src/MUX_5to1.vhd" \
+"../../../../../src/Multipliers_Module.vhd" \
+"../../../../../src/Pre_Adders_Module.vhd" \
+"../../../../../src/Reg_Module_AddMult.vhd" \
+"../../../../../src/Reg_Module_MultAdd.vhd" \
+"../../../../../src/Registro.vhd" \
+"../../../../../src/RippleCarryAdder.vhd" \
+"../../../../../tb/TB.vhd" \
+
+# Do not sort compile order
+nosort

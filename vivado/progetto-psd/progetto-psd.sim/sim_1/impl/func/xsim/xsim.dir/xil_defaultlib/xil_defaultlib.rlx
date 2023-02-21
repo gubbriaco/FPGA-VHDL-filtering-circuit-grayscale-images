@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.sim/sim_1/impl/func/xsim/TB_func_impl.vhd,1676675625,vhdl,,,,\Registro__parameterized2\;\Registro__parameterized2_0\;\Registro__parameterized2_1\;\Registro__parameterized2_2\;\Registro__parameterized2_3\;\Registro__parameterized2_4\;\Registro__parameterized4\;bufferline;counter_13bit;ff_t;ff_t_10;ff_t_11;ff_t_12;ff_t_13;ff_t_14;ff_t_15;ff_t_16;ff_t_17;ff_t_18;ff_t_19;ff_t_20;ff_t_21;filtercircuit;fsm;fsm_and_counter;reg_module_addmult;reg_module_multadd;registro;registro_5;registro_6;registro_7;registro_8;registro_9,,,,,,,,
+C:/Users/giorg/Desktop/progetto-psd/vivado/src/costants.vhd,1676459369,vhdl,C:/Users/giorg/Desktop/progetto-psd/vivado/tb/TB.vhd,,,costants,,,,,,,,
+C:/Users/giorg/Desktop/progetto-psd/vivado/tb/TB.vhd,1676675589,vhdl,,,,tb,,,,,,,,

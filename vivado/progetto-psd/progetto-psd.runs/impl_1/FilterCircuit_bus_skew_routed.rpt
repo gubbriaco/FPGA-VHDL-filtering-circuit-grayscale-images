@@ -1,0 +1,15 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Sun Feb 19 01:23:31 2023
+| Host         : Giorgio running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file FilterCircuit_bus_skew_routed.rpt -pb FilterCircuit_bus_skew_routed.pb -rpx FilterCircuit_bus_skew_routed.rpx
+| Design       : FilterCircuit
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.sim/sim_1/impl/timing/xsim/TB_time_impl.v,1676832443,verilog,,,,BufferLine;Counter_13bit;FF_T;FF_T_10;FF_T_11;FF_T_12;FF_T_13;FF_T_14;FF_T_15;FF_T_16;FF_T_17;FF_T_18;FF_T_19;FF_T_20;FF_T_21;FSM;FSM_and_Counter;FilterCircuit;Reg_Module_AddMult;Reg_Module_MultAdd;Registro;Registro_5;Registro_6;Registro_7;Registro_8;Registro_9;Registro__parameterized2;Registro__parameterized2_0;Registro__parameterized2_1;Registro__parameterized2_2;Registro__parameterized2_3;Registro__parameterized2_4;Registro__parameterized4;glbl,,,,,,,,
+C:/Users/giorg/Desktop/progetto-psd/vivado/src/costants.vhd,1676459369,vhdl,C:/Users/giorg/Desktop/progetto-psd/vivado/tb/TB.vhd,,,costants,,,,,,,,
+C:/Users/giorg/Desktop/progetto-psd/vivado/tb/TB.vhd,1676820524,vhdl,,,,tb,,,,,,,,

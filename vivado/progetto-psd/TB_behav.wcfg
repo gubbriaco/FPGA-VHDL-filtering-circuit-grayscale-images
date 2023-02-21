@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB" />
+            <top_module name="costants" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="33,549.400 ns"></ZoomStartTime>
+      <ZoomEndTime time="33,678.301 ns"></ZoomEndTime>
+      <Cursor1Time time="33,654.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="240950" label="" />
+      <marker time="1271900" label="" />
+      <marker time="1295600" label="" />
+      <marker time="32599350" label="" />
+      <marker time="33630300" label="" />
+      <marker time="33654000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/START" type="logic">
+      <obj_property name="ElementShortName">START</obj_property>
+      <obj_property name="ObjectShortName">START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/read_enable" type="logic">
+      <obj_property name="ElementShortName">read_enable</obj_property>
+      <obj_property name="ObjectShortName">read_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/FSM_Counter/Finite_state_machine/clear_count" type="logic">
+      <obj_property name="ElementShortName">clear_count</obj_property>
+      <obj_property name="ObjectShortName">clear_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/FSM_Counter/Finite_state_machine/Count" type="array">
+      <obj_property name="ElementShortName">Count[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Count[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/FSM_Counter/Finite_state_machine/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/FSM_Counter/Finite_state_machine/count_en" type="logic">
+      <obj_property name="ElementShortName">count_en</obj_property>
+      <obj_property name="ObjectShortName">count_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/FSM_Counter/Finite_state_machine/processing_en" type="logic">
+      <obj_property name="ElementShortName">processing_en</obj_property>
+      <obj_property name="ObjectShortName">processing_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/FSM_Counter/Finite_state_machine/last_elaboration" type="logic">
+      <obj_property name="ElementShortName">last_elaboration</obj_property>
+      <obj_property name="ObjectShortName">last_elaboration</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/pixel_in" type="array">
+      <obj_property name="ElementShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/data_valid_out" type="logic">
+      <obj_property name="ElementShortName">data_valid_out</obj_property>
+      <obj_property name="ObjectShortName">data_valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/filtered_pixel" type="array">
+      <obj_property name="ElementShortName">filtered_pixel[23:0]</obj_property>
+      <obj_property name="ObjectShortName">filtered_pixel[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/p00" type="array">
+      <obj_property name="ElementShortName">p00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p00[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/p22" type="array">
+      <obj_property name="ElementShortName">p22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p22[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/buffer1[0]" type="array">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/buffer1[1]" type="array">
+      <obj_property name="ElementShortName">[1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/buffer1[2]" type="array">
+      <obj_property name="ElementShortName">[2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/buffer1[3]" type="array">
+      <obj_property name="ElementShortName">[3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/buffer_line/buffer1[4]" type="array">
+      <obj_property name="ElementShortName">[4][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

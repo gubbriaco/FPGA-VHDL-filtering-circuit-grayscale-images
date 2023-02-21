@@ -1,0 +1,538 @@
+
+*** Running vivado
+    with args -log FilterCircuit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FilterCircuit.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source FilterCircuit.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.srcs/utils_1/imports/synth_1/FilterCircuit.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.srcs/utils_1/imports/synth_1/FilterCircuit.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top FilterCircuit -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12588
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1262.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FilterCircuit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FilterCircuit.vhd:22]
+INFO: [Synth 8-3491] module 'FSM_and_Counter' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM_and_Counter.vhd:5' bound to instance 'FSM_Counter' of component 'FSM_and_Counter' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FilterCircuit.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'FSM_and_Counter' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM_and_Counter.vhd:13]
+INFO: [Synth 8-3491] module 'Counter_13bit' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:6' bound to instance 'Counter' of component 'Counter_13bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM_and_Counter.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'Counter_13bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:16]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_first' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FF_T' (1#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:14]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_second' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:37]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-3491] module 'FF_T' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FF_T.vhd:5' bound to instance 'FFT_Gen' of component 'FF_T' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Counter_13bit' (2#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Counter_13bit.vhd:16]
+INFO: [Synth 8-3491] module 'FSM' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM.vhd:5' bound to instance 'Finite_state_machine' of component 'FSM' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM_and_Counter.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (3#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FSM_and_Counter' (4#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FSM_and_Counter.vhd:13]
+INFO: [Synth 8-3491] module 'BufferLine' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/BufferLine.vhd:6' bound to instance 'buffer_line' of component 'BufferLine' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FilterCircuit.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'BufferLine' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/BufferLine.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'BufferLine' (5#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/BufferLine.vhd:21]
+INFO: [Synth 8-3491] module 'Pre_Adders_Module' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:5' bound to instance 'Pre_Adders' of component 'Pre_Adders_Module' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FilterCircuit.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'Pre_Adders_Module' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:17]
+INFO: [Synth 8-3491] module 'Adder_tree_CSA_4opX9bit' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:5' bound to instance 'First_Pre_Adder_4OP' of component 'Adder_tree_CSA_4opX9bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'Adder_tree_CSA_4opX9bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:14]
+	Parameter n bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_9bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (6#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:13]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector' (7#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_10bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector__parameterized1' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector__parameterized1' (7#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'RippleCarryAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:6' bound to instance 'RCA11bit' of component 'RippleCarryAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+	Parameter n bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA_MSB' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder' (8#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Adder_tree_CSA_4opX9bit' (9#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:14]
+INFO: [Synth 8-3491] module 'Adder_tree_CSA_8opX9bit' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:6' bound to instance 'Second_Pre_Adder_8OP' of component 'Adder_tree_CSA_8opX9bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Adder_tree_CSA_8opX9bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:15]
+	Parameter n bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_1_9bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:48]
+	Parameter n bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_2_9bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:49]
+	Parameter n bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_1_10bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:51]
+	Parameter n bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_2_10bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:52]
+	Parameter n bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_11bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector__parameterized4' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector__parameterized4' (9#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderVector' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:5' bound to instance 'FA3_12bit' of component 'FullAdderVector' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector__parameterized6' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector__parameterized6' (9#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 13 - type: integer 
+INFO: [Synth 8-3491] module 'RippleCarryAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:6' bound to instance 'RCA13bit' of component 'RippleCarryAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder__parameterized1' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+	Parameter n bound to: 13 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:35]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdder.vhd:5' bound to instance 'FA_MSB' of component 'FullAdder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder__parameterized1' (9#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Adder_tree_CSA_8opX9bit' (10#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_8opX9bit.vhd:15]
+INFO: [Synth 8-3491] module 'Adder_tree_CSA_4opX9bit' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:5' bound to instance 'Third_Pre_Adder_4OP' of component 'Adder_tree_CSA_4opX9bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:42]
+INFO: [Synth 8-3491] module 'Adder_tree_CSA_4opX9bit' declared at 'C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_tree_CSA_4opX9bit.vhd:5' bound to instance 'Fourth_Pre_Adder_4OP' of component 'Adder_tree_CSA_4opX9bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:44]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'Pre_Adders_Module' (11#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Pre_Adders_Module.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'Reg_Module_AddMult' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Reg_Module_AddMult.vhd:14]
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Registro' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Registro.vhd:15]
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Registro' (12#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Registro.vhd:15]
+	Parameter n bound to: 12 - type: integer 
+	Parameter n bound to: 12 - type: integer 
+	Parameter n bound to: 12 - type: integer 
+	Parameter n bound to: 12 - type: integer 
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Reg_Module_AddMult' (13#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Reg_Module_AddMult.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'Multipliers_Module' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Multipliers_Module.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'Booth_mult' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Booth_mult.vhd:21]
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder__parameterized3' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+	Parameter n bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder__parameterized3' (13#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'Booth_encoder' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Booth_encoder.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Booth_encoder' (14#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Booth_encoder.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'MUX_5to1' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/MUX_5to1.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'MUX_5to1' (15#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/MUX_5to1.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'Adder_CSA_mult' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_CSA_mult.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'FA_CSA' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FA_CSA.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'FA_CSA' (16#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FA_CSA.vhd:16]
+	Parameter n bound to: 22 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder__parameterized5' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+	Parameter n bound to: 22 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder__parameterized5' (16#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Adder_CSA_mult' (17#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Adder_CSA_mult.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Booth_mult' (18#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Booth_mult.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Multipliers_Module' (19#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Multipliers_Module.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'Reg_Module_MultAdd' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Reg_Module_MultAdd.vhd:14]
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Registro__parameterized2' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Registro.vhd:15]
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Registro__parameterized2' (19#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Registro.vhd:15]
+	Parameter n bound to: 20 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Reg_Module_MultAdd' (20#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Reg_Module_MultAdd.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'Final_Adder_Tree_CSA_6opX20bit' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Final_Adder_Tree_CSA_6opX20bit.vhd:13]
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector__parameterized8' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector__parameterized8' (20#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 20 - type: integer 
+	Parameter n bound to: 21 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector__parameterized10' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 21 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector__parameterized10' (20#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 22 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FullAdderVector__parameterized12' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 22 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FullAdderVector__parameterized12' (20#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FullAdderVector.vhd:14]
+	Parameter n bound to: 23 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder__parameterized7' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+	Parameter n bound to: 23 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder__parameterized7' (20#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/RippleCarryAdder.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Final_Adder_Tree_CSA_6opX20bit' (21#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Final_Adder_Tree_CSA_6opX20bit.vhd:13]
+	Parameter n bound to: 24 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Registro__parameterized4' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Registro.vhd:15]
+	Parameter n bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Registro__parameterized4' (21#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Registro.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'FilterCircuit' (22#1) [C:/Users/giorg/Desktop/progetto-psd/vivado/src/FilterCircuit.vhd:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1262.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1262.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1262.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1262.141 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.srcs/constrs_1/new/my_constraint.xdc]
+Finished Parsing XDC File [C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.srcs/constrs_1/new/my_constraint.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1271.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1271.914 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1271.914 ; gain = 9.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1271.914 ; gain = 9.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1271.914 ; gain = 9.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00001 |                              000
+               read_only |                            00010 |                              001
+        read_and_process |                            00100 |                              010
+   half_read_and_process |                            01000 |                              011
+             wait_output |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'FSM'
+WARNING: [Synth 8-327] inferring latch for variable 'C_reg' [C:/Users/giorg/Desktop/progetto-psd/vivado/src/Booth_encoder.vhd:25]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1271.914 ; gain = 9.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 768   
++---Registers : 
+	               24 Bit    Registers := 1     
+	               20 Bit    Registers := 6     
+	               12 Bit    Registers := 6     
+	                8 Bit    Registers := 261   
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 26    
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 24    
+	   5 Input    1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.914 ; gain = 9.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 1271.914 ; gain = 9.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 1306.613 ; gain = 44.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/First_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Second_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Third_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fourth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Fifth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[0].if_Gen_1.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[1].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[2].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[2]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[1]) is unused and will be removed from module FilterCircuit.
+WARNING: [Synth 8-3332] Sequential element (Multipliers/Sixth_Mult/Booth_enc_gen[3].if_Gen_2.booth_enc/C_reg[0]) is unused and will be removed from module FilterCircuit.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:01:00 . Memory (MB): peak = 1392.402 ; gain = 130.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|FilterCircuit | buffer_line/buffer1_reg[64][7] | 60     | 32    | YES          | NO                 | YES               | 0      | 64      | 
++--------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |LUT2    |   105|
+|3     |LUT3    |   244|
+|4     |LUT4    |   117|
+|5     |LUT5    |   332|
+|6     |LUT6    |   481|
+|7     |SRLC32E |    64|
+|8     |FDRE    |   507|
+|9     |FDSE    |     1|
+|10    |IBUF    |    60|
+|11    |OBUF    |    26|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 1401.230 ; gain = 139.090
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 74 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:01:02 . Memory (MB): peak = 1401.230 ; gain = 129.316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:01:05 . Memory (MB): peak = 1401.230 ; gain = 139.090
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1401.230 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1401.230 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 7fd39c35
+INFO: [Common 17-83] Releasing license: Synthesis
+187 Infos, 76 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:10 . Memory (MB): peak = 1401.230 ; gain = 139.090
+INFO: [Common 17-1381] The checkpoint 'C:/Users/giorg/Desktop/progetto-psd/vivado/progetto-psd/progetto-psd.runs/synth_1/FilterCircuit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FilterCircuit_utilization_synth.rpt -pb FilterCircuit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 18 16:42:34 2023...
